@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ActionMailerNext</id>
+    <version>3.2.0.0</version>
+    <authors>Scott W. Anderson,  crossvertise GmbH</authors>
+    <owners>Scott W. Anderson,  crossvertise GmbH</owners>
+    <licenseUrl>https://github.com/crossvertise/ActionMailerNext/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/crossvertise/ActionMailerNext</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ActionMailerNext is a painless way of using razor view to render emails. This is the shared base library used in all versions of ActionMailer. ActionMailerNext is a continuation of the ActionMailer.Net project</description>
+    <copyright>Copyright 2014 Scott Anderson, crossvertise GmbH</copyright>
+    <tags>email mvc asp.net razor actionmailer actionmailer.net</tags>
+    <dependencies>
+      <dependency id="PreMailer.Net" version="1.3.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,179 @@
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll.config
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.pdb
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Owin.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.pdb
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.csprojResolveAssemblyReference.cache
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.dll
+c:\users\natasapetrov\documents\visual studio 2013\Projects\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.pdb
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll.config
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.pdb
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Owin.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.pdb
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.csprojResolveAssemblyReference.cache
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.dll
+G:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.pdb
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll.config
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.pdb
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Owin.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.pdb
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.csprojResolveAssemblyReference.cache
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.dll
+J:\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.pdb
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll.config
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.Tests.pdb
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\ActionMailerNext.Mvc5.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Owin.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\ActionMailerNext.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\PronadjiUBanovcima.pdb
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Helpers.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Mvc.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Razor.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\EntityFramework.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\System.Web.Optimization.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\ActionMailerNext.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.csprojResolveAssemblyReference.cache
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.dll
+G:\N\pronadji\PronadjiUBanovcima\PronadjiUBanovcima.Tests\obj\Debug\PronadjiUBanovcima.Tests.pdb

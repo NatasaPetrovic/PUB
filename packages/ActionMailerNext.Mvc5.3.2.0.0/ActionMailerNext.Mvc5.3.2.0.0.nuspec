@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ActionMailerNext.Mvc5</id>
+    <version>3.2.0.0</version>
+    <authors>Scott W. Anderson,  crossvertise GmbH</authors>
+    <owners>Scott W. Anderson,  crossvertise GmbH</owners>
+    <licenseUrl>https://github.com/crossvertise/ActionMailerNext/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/crossvertise/ActionMailerNext</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ActionMailerNext is a painless way of using razor view to render emails. This version runs with ASP.MVC 5. ActionMailerNext is a continuation of the ActionMailer.Net project</description>
+    <copyright>Copyright 2014 Scott Anderson, crossvertise GmbH</copyright>
+    <tags>email mvc asp.net razor actionmailer actionmailer.net mvc5</tags>
+    <dependencies>
+      <dependency id="Mandrill" version="1.2.1.0" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.0.0" />
+      <dependency id="Sendgrid" version="5.1.0" />
+      <dependency id="ActionMailerNext" version="3.2.0.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<PronadjiUBanovcima.Models.Info>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="container">
+<h2>Index</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Firma)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+
+        <th>@Html.DisplayName("Delatnost")</th>
+        <th></th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Firma)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adresa)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @foreach (var del in item.ListaDelatnosti)
+            {
+                @Html.DisplayFor(x=>del.Naziv)
+                <br/> 
+               
+            }
+            </td>
+        <td>
+            <img src="@item.ListaSlika[0].Putanja" width="50" height="50" />
+        </td>
+        <td>
+            @if(Roles.IsUserInRole("Admin"))
+            { 
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) 
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            } 
+            @*@Html.ActionLink("Detalji", "Details", new { id=item.Id })*@ 
+            @**@
+        </td>
+        
+    </tr>
+}
+
+</table>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Mandrill</id>
+    <version>1.2.7.0</version>
+    <title>Mandrill</title>
+    <authors>Shawn Mclean</authors>
+    <owners>Shawn Mclean</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/shawnmclean/Mandrill-dotnet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Mandrill .Net is a quick and easy wrapper for getting started with the Mandrill API.</description>
+    <summary>Mandrill .Net is a quick and easy wrapper for getting started with the Mandrill API.</summary>
+    <releaseNotes>Added a few fixes.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Mandrill MailChimp</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.8" />
+      <dependency id="RestSharpSigned" version="105.0.1" />
+    </dependencies>
+  </metadata>
+</package>

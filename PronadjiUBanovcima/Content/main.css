@@ -1,0 +1,96 @@
+html, body {
+height:90%;}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+#jumbo {
+  background-image:url("http://www.sonquintgolf.com/data/uploads/originals/pages/f9821efced7c0f0af25e064f1b8a8d1e.jpg");/*http://www.visualosophy.com/temp/obicanprvimaj.jpg*/
+  height:130%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: center center;
+}
+
+#jumbo .container {
+  position: relative;
+  top:15%;
+   
+}
+    
+#jumbo h1 {
+  color: #CC9900;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #CC9900;
+}
+
+.neighborhood-guides {
+  background-color:#efefef;  
+  border-bottom:1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+  color:#393c3d;
+  font-size:24px;
+}
+
+.neighborhood-guides p {
+  font-size:15px;
+  margin-bottom:13px;
+}
+#search {
+    height: 150px;
+    width: 90%;
+    background: rgba(0,0,0,.60);
+    padding: 50px 60px;
+    margin-top:200px;
+    margin-left: 5%; /*115px;*/
+    border-radius:2px;
+    text-align:center;
+    z-index:1;
+    
+}
+.input-group {
+right:5%;
+width:110%;
+
+}
+@media screen and (min-width:1200px) {
+    .input-group {
+    
+    width:110%;
+    right:0px;
+    }
+}
+
+
+input {
+       max-width: 100%; 
+}

@@ -1,0 +1,257 @@
+﻿@model PronadjiUBanovcima.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<style type="text/css">
+   
+ 
+	/* Extra Small Devices, Phones */
+    @@media only screen and (min-width : 480px) {
+        .noGutter {
+            padding-left: 0px;
+            padding-right: -7px;
+            width: 20%;
+        }
+
+        .smaller {
+            width: 80%;
+        }
+    }
+ 
+	/* Small Devices, Tablets */
+    @@media only screen and (min-width : 768px) {
+        .form-horizontal .control-label {
+            text-align: left;
+        }
+
+        .noGutter {
+        width:20%;
+        }
+
+        .smaller {
+            padding-right: 2px;
+            width: 80%;
+        }
+    }
+ 
+	/* Medium Devices, Desktops */
+    @@media only screen and (min-width : 992px) {
+        .noGutter {
+            padding-left: 0px;
+            padding-right: -7px;
+            width: 7%;
+        }
+
+        .form-horizontal .control-label {
+            text-align: right;
+        }
+    }
+ 
+	/* Large Devices, Wide Screens */
+    @@media only screen and (min-width : 1200px) {
+        .noGutter {
+            padding-left: 0px;
+            padding-right: 0;
+            width: 11%;
+        }
+
+        .smaller {
+            width: 70%;
+        }
+
+        .form-horizontal .control-label {
+            text-align: right;
+        }
+    }
+
+    
+    
+    </style>
+<script type="text/javascript">
+    function check3() {
+        var checks = document.getElementsByName("SelectedDels");
+        var num = 0;
+        for (var i = 0; i < checks.length; i++) {
+            if (checks[i].checked)
+                num++;
+
+        }
+        if(num>=3)
+            for (var i = 0; i < checks.length; i++) {
+                if (!checks[i].checked)
+                    checks[i].setAttribute("disabled", "disabled");
+            }
+        else
+            for (var i = 0; i < checks.length; i++) 
+               
+                    checks[i].removeAttribute("disabled");
+
+    }
+
+    $(document).ready(function () {
+
+        $("#tag2").hide();
+        $("#tag3").hide();
+
+        $("#tag1").change(function () {
+            $("#tag2").show();
+        });
+
+        $("#tag2").change(function () {
+            $("#tag3").show();
+        });
+    });
+</script>
+<div class="container">
+<h2>@ViewBag.Title.</h2>
+
+    
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal col-lg-6 col-md-6 col-sm-6 col-xs-6", role = "form", enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            <h4>Create a new account.</h4>
+            <hr />
+            @Html.ValidationSummary()
+            <div class="form-group">
+                @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10 col-lg-10">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </div>
+                
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10 col-lg-10">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10 col-lg-10">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2 col-lg-2" })
+                <div class="col-md-10 col-lg-10">
+                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Email)
+                </div>
+            </div>
+
+            <div class="form-group">
+               
+                @Html.Label("Delatnosti", new { @class = "control-label col-md-2 col-lg-2" })
+                <div class="col-md-10 col-lg-10">
+                   
+                    @foreach (var item in Model.ListaDelatnosti)
+                    {
+                        <input type="checkbox" value=@item.Value name="SelectedDels" onchange="check3()" />@item.Text
+                        <br />
+
+                    }
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Firma, new { @class = "control-label col-md-2 col-lg-2" })
+                <div class="col-md-10 col-lg-10">
+                    @Html.TextBoxFor(model => model.Firma, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Firma)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Telefon, new { @class = "control-label col-md-2 col-lg-2" })
+                <div class="col-md-10 col-lg-10">
+                    @Html.TextBoxFor(model => model.Telefon, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Telefon)
+                </div>
+            </div>
+
+            <div class="form-group">
+               
+                @Html.Label("Ulica i broj", new { @class = "labela control-label col-xs-10 col-md-2 col-lg-2" })
+                
+                <div class="col-md-3 col-xs-4 col-sm-4 col-lg-8 smaller" >
+                    @Html.TextBoxFor(model => model.Adresa, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Adresa)
+                </div>
+
+                <div class="col-xs-1 col-md-1 col-sm-1 noGutter col-lg-1">
+
+                    @Html.TextBoxFor(model => model.Broj, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Broj)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label("Mesto", new { @class = "control-label col-md-2 col-lg-2" })
+                <div class="col-md-10">
+                    @{
+                    List<SelectListItem> listItems = new List<SelectListItem>();
+                    listItems.Add(new SelectListItem
+                         {
+                             Text = "Novi Banovci",
+                             Value = "Novi Banovci"
+                         });
+                    listItems.Add(new SelectListItem
+                         {
+                             Text = "Banovci Dunav",
+                             Value = "Banovci Dunav"
+                         });
+                    listItems.Add(new SelectListItem
+                         {
+                             Text = "Stari Banovci",
+                             Value = "Stari Banovci"
+                         });
+                    }
+                    @Html.DropDownListFor(model => model.Mesto, listItems, "-- Izaberite mesto --", new { @class = "form-control" })
+
+                </div>
+            </div>
+            
+            <div class="form-group">
+                @Html.Label("Tagovi", new { @class = "tagLabel control-label col-md-2 col-lg-2", @for="tag1" })
+                <div class="col-md-10 col-lg-10">
+                    @Html.TextBox("tag1", "", new { @class = "form-control", id="tag1" })
+                    
+                </div>
+                </div>
+             <div class="form-group">
+                 @Html.Label(" ", new { @class = "tagLabel control-label col-md-2 col-lg-2", @for = "tag1" })
+                 <div class="col-md-10 col-lg-10">
+                     @Html.TextBox("tag2", "", new { @class = "form-control", id = "tag2" })
+                 </div>
+                </div>
+                 <div class="form-group">
+                     @Html.Label(" ", new { @class = "tagLabel control-label col-md-2 col-lg-2", @for = "tag1" })
+                     <div class="col-md-10 col-lg-10">
+                         @Html.TextBox("tag3", "", new { @class = "form-control", id = "tag3" })
+
+                     </div>
+                     </div>
+
+                     @Html.Label("Upload", new { @class = "control-label col-md-2" })
+
+                     @Html.TextBoxFor(m => m.ImageUpload, new { type = "file", name = "imageUpload" })
+                     @*<div class="form-group">
+                <input type="file" name="imageUpload"/>
+            </div>*@
+
+
+
+
+                     <div class="form-group">
+                         <div class="col-md-offset-2 col-md-10">
+                             <input type="submit" class="btn btn-default" value="Register" />
+                         </div>
+                     </div>
+                     }
+
+                 </div>
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "Najnoviji oglasi";
+}
+@model IEnumerable<PronadjiUBanovcima.Models.Info>
+<div class="jumbotron" id="jumbo">
+    <div class="container">
+        <h1>Pronađi u Banovcima sve što ti treba.</h1>
+        
+        <div id="search">
+            @using (Html.BeginForm("Index", "Info", FormMethod.Post))
+    {
+           
+                <div class="col-lg-11">
+                    <div class="input-group input-group-lg">
+                        <input name="SearchString" type="text" class="form-control" placeholder="Unesi ključnu reč..." />
+                       
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"> <span class="glyphicon glyphicon-search"></span> </button>
+                        </span>
+
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+                
+          }
+        </div> 
+        </div>
+    </div>
+
+<div class="neighborhood-guides">
+    <div class="container">
+        <h2> Technologies we use.</h2>
+        <p> Not sure what these technologies do? Neither do we, but we still make good software.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="http://i.ytimg.com/vi/Qu9z8ecA69c/maxresdefault.jpg" />
+                </div>
+                <div class="thumbnail">
+                    <img src="http://www.stwi.in/images/blog/html-code/html.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="http://i.ytimg.com/vi/Wa2gpmp8GyU/maxresdefault.jpg" />
+                </div>
+                <div class="thumbnail">
+                    <img src="http://ozonepk.net/images/visual_studio.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="http://1.bp.blogspot.com/-b73FoohcHrM/VOycth1RcFI/AAAAAAAAVnI/nRvKNSlGERo/s1600/java-oracle.png" />
+                </div>
+                <div class="thumbnail">
+                    <img src="http://cdn.flaticon.com/png/256/28968.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="learn-more">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Websites</h3>
+                <p>We can make a wide veriety of website using the newest methods.</p>
+                <p><a href="https://en.wikipedia.org/wiki/Website">See examples of our website solutions</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Design</h3>
+                <p>You want it to look fresh? Fancy? No problem for us.</p>
+                <p><a href="https://en.wikipedia.org/wiki/Web_design">Learn more about our design aproaches</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Application software</h3>
+                <p>App it up with the most advanced Shtrik IT software solutions.</p>
+                <p><a href="https://en.wikipedia.org/wiki/Application_software">Learn about the app necessity in the modern bussiness</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*@using (Html.BeginForm("Index","Info", FormMethod.Post ))
+{
+    <p>
+        Title: @Html.TextBox("SearchString") <br />
+        <input type="submit" value="Filter" />
+    </p>
+}*@
+
+
+
+ 
+
