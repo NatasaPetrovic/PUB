@@ -158,20 +158,14 @@ namespace PronadjiUBanovcima.Controllers
                        "image/png"
                    };
                     // ViewBag.Delatnosti = new SelectList(db.Delatnosti, "Id", "Naziv");
-                    if (imageUpload == null)
-                    {
-                        ModelState.AddModelError("ImageUpload", "This field is required");
-                        ViewBag.Error = "Slika je null!";
-                        return View("Error");
-                    }
-                    if (!validImageTypes.Contains(imageUpload.ContentType))
+                    
+                    if (imageUpload != null && !validImageTypes.Contains(imageUpload.ContentType))
                     {
                         ModelState.AddModelError("ImageUpload", "Izaberite JPG, GIF ili PNG format slike");
                         ViewBag.Error = "Slika nije validna!";
                         return View("Error");
                     }
-                    if (imageUpload != null && imageUpload.ContentLength > 0)
-                    {
+                   
                         string confToken = CreateConfirmationToken();
                         var user = new ApplicationUser()
                         {
@@ -223,11 +217,16 @@ namespace PronadjiUBanovcima.Controllers
                             Alt = model.Firma,
                             KlijentId = info.Id
                         };
+                        if (imageUpload != null && imageUpload.ContentLength > 0)
+                        {
                         var uploadDir = "~/Images";
                         var imagePath = Path.Combine(Server.MapPath(uploadDir), imageUpload.FileName);
                         var imageUrl = Path.Combine(uploadDir, imageUpload.FileName);
                         imageUpload.SaveAs(imagePath);
                         slika.Putanja = imageUrl.Remove(0, 1);
+                        }
+                        else
+                            slika.Putanja = @"/Images\default-user-image.png";
                         info.ListaSlika = new List<Slika>();
                         info.ListaSlika.Add(slika);
 
@@ -266,7 +265,7 @@ namespace PronadjiUBanovcima.Controllers
                         {
                             AddErrors(result);
                         }
-                    }
+                    
                 }
             }
 
