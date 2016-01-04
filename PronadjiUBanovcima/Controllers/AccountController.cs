@@ -205,11 +205,9 @@ namespace PronadjiUBanovcima.Controllers
                             Adresa = model.Adresa + " " + model.Broj + ", " + model.Mesto,
                             Email = model.Email,
                             Firma = model.Firma,
-                           
                             Telefon = model.Telefon,
                             ListaDelatnosti = dels,
                             ListaTagova = tagovi,
-                           
                             Klijent = user
                         };
                         var slika = new Slika
@@ -256,7 +254,6 @@ namespace PronadjiUBanovcima.Controllers
                         {
 
                             //await SignInAsync(user, isPersistent: false);
-                            
                             UserManager.AddToRole(user.Id, "Osnovni");
                             new MailController().VerificationEmail(user).Deliver();
                             return View("RegisterStepTwo"); 

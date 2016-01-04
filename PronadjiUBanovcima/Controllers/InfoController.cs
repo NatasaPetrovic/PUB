@@ -7,6 +7,9 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using PronadjiUBanovcima.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+
 
 namespace PronadjiUBanovcima.Controllers
 {
@@ -14,7 +17,7 @@ namespace PronadjiUBanovcima.Controllers
     public class InfoController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
-
+        public UserManager<ApplicationUser> UserManager { get; private set; }
         // GET: /Info/
         [AllowAnonymous]
         public ActionResult Index(string SearchString)
@@ -95,7 +98,7 @@ namespace PronadjiUBanovcima.Controllers
 
         // GET: /Info/Edit/5
         
-        public ActionResult Edit(int? id)
+        public  ActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -106,6 +109,11 @@ namespace PronadjiUBanovcima.Controllers
             {
                 return HttpNotFound();
             }
+            var RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(db));
+            var role =  RoleManager.FindByName("Osnovni");
+         
+            bool osnovni = info.Klijent.Roles.ToList<IdentityUserRole>()[0].Role == role;
+            ViewBag.Korisnik = osnovni;
             return View(info);
         }
 
@@ -118,6 +126,8 @@ namespace PronadjiUBanovcima.Controllers
         {
             if (ModelState.IsValid)
             {
+                string korisnik = Request.Form["rbtn"];
+                UserManager.AddToRole(info.Klijent.Id, korisnik);
                 db.Entry(info).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
