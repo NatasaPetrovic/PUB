@@ -16,6 +16,19 @@ namespace PronadjiUBanovcima.Controllers
     [Authorize(Roles="Admin")]
     public class InfoController : Controller
     {
+
+
+         public InfoController()
+            : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
+        {
+        }
+
+         public InfoController(UserManager<ApplicationUser> userManager)
+        {
+            UserManager = userManager;
+        }
+
+
         private ApplicationDbContext db = new ApplicationDbContext();
         public UserManager<ApplicationUser> UserManager { get; private set; }
         // GET: /Info/
@@ -124,15 +137,31 @@ namespace PronadjiUBanovcima.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include="Id,Firma,Opis,Telefon,Adresa,Sajt,Email")] Info info)
         {
+            var RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(db));
+            var role = RoleManager.FindByName("Osnovni");
+            bool osnovni = Request.Form["[0].Role.Name"] == role.Name;
+            ViewBag.Korisnik = osnovni;
+            string klijent = Request.Form["Klijent.Id"];
+
             if (ModelState.IsValid)
             {
-                string korisnik = Request.Form["rbtn"];
-                UserManager.AddToRole(info.Klijent.Id, korisnik);
+                string korisnickiPaket = Request.Form["rbtn"];
+               
+                string staraRola = Rola(korisnickiPaket);
+                UserManager.RemoveFromRole(klijent, staraRola);
+                UserManager.AddToRole(klijent, korisnickiPaket);
                 db.Entry(info).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View(info);
+        }
+
+        private string Rola(string korisnickiPaket)
+        {
+            if (korisnickiPaket == "Osnovni")
+                return "Premium";
+            return "Osnovni";
         }
 
         // GET: /Info/Delete/5

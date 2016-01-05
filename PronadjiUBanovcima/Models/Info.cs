@@ -23,4 +23,6 @@ namespace PronadjiUBanovcima.Models
         public virtual List<Delatnost> ListaDelatnosti { get; set; }
         public virtual List<Tag> ListaTagova { get; set; }
     }
+
+   
 }
