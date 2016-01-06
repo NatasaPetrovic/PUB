@@ -935,7 +935,6 @@ D:\PUB\PronadjiUBanovcima\bin\Microsoft.Owin.Security.OAuth.xml
 D:\PUB\PronadjiUBanovcima\bin\Microsoft.Owin.Security.Google.xml
 D:\PUB\PronadjiUBanovcima\bin\Microsoft.Owin.Security.Twitter.xml
 D:\PUB\PronadjiUBanovcima\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.csprojResolveAssemblyReference.cache
 D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.Migrations.init.resources
 D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.Migrations.Premium.resources
 D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.Migrations.PremiumPodaci.resources

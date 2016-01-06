@@ -10,9 +10,6 @@ namespace PronadjiUBanovcima.Models
         public int Id { get; set; }
         public string Naziv { get; set; }
         public virtual ICollection<Info> ListaKlijenata { get; set; }
-        public Tag()
-        {
-            this.ListaKlijenata = new List<Info>();
-        }
+       
     }
 }

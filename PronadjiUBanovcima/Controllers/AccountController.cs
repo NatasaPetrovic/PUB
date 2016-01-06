@@ -185,20 +185,21 @@ namespace PronadjiUBanovcima.Controllers
                         for (int t = 1; t <= 3; t++)
                         {
                             string tag = Request.Form["tag" + t];
-                            if (tag != "") 
+                            if (tag != "")
                             {
-                                
+
                                 if (db.Tagovi.Where(x => x.Naziv.Contains(tag)).ToList().Count != 0)
 
                                     tagovi.AddRange(db.Tagovi.Where(x => x.Naziv.Contains(tag)).ToList());
-                                
+
                                 else
+                                
                                     tagovi.Add(new Tag() { Naziv = tag });
+                                
                             }
 
                         }
-                       
-                        
+                     
                         var info = new Info()
                         {
                             Id=id + 1,

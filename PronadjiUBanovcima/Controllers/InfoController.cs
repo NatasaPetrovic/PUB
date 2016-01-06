@@ -37,14 +37,9 @@ namespace PronadjiUBanovcima.Controllers
         {
             List<Info> podaci = new List<Info>();
 
-            if (SearchString != null)
-
+            if (SearchString != "")
+            {
                 podaci = db.Podaci.Where(p => p.Firma.Contains(SearchString)).ToList();
-
-            else
-                podaci = db.Podaci.ToList();
-
-            
                 List<Info> podaciRaw = db.Podaci.ToList();
                 List<Delatnost> delatnosti = db.Delatnosti.Where(d => d.Naziv.Contains(SearchString)).ToList();
 
@@ -63,9 +58,11 @@ namespace PronadjiUBanovcima.Controllers
                     tagIds[i] = tagovi[i].Id;
 
                 podaci.AddRange(db.Podaci.Where(x => x.ListaTagova.Any(t => tagIds.Contains(t.Id))).ToList());
+                podaci = podaci.Distinct().ToList();
+            }
+            else
+                podaci = db.Podaci.ToList();
 
-            
-            
                      return View(podaci);
         }
         [HttpPost]
