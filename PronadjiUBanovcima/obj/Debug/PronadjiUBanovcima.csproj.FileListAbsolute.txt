@@ -945,3 +945,4 @@ D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.Migrations.Tag.resources
 D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.csproj.GenerateResource.Cache
 D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.dll
 D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.pdb
+D:\PUB\PronadjiUBanovcima\obj\Debug\PronadjiUBanovcima.csprojResolveAssemblyReference.cache

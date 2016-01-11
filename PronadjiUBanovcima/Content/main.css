@@ -1,96 +1,174 @@
-html, body {
-height:90%;}
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
+body {
+    height: 100%;
+    background: radial-gradient( circle, rgba(0, 0, 0, -0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url(../Images/jumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    font-family: Helvetica, serif;
+    color: antiquewhite;
+    text-shadow: 2px 2px #404040;
 }
 
-.nav li {
-  display: inline;
-}
-
-#jumbo {
-  background-image:url("http://www.sonquintgolf.com/data/uploads/originals/pages/f9821efced7c0f0af25e064f1b8a8d1e.jpg");/*http://www.visualosophy.com/temp/obicanprvimaj.jpg*/
-  height:130%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment:fixed;
-  background-position: center center;
-}
-
-#jumbo .container {
-  position: relative;
-  top:15%;
-   
-}
-    
-#jumbo h1 {
-  color: #CC9900;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-  text-align: center;
-
-}
-
-
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #CC9900;
-}
-
-.neighborhood-guides {
-  background-color:#efefef;  
-  border-bottom:1px solid #dbdbdb;
-}
-
-.neighborhood-guides h2 {
-  color:#393c3d;
-  font-size:24px;
-}
-
-.neighborhood-guides p {
-  font-size:15px;
-  margin-bottom:13px;
-}
-#search {
-    height: 150px;
-    width: 90%;
-    background: rgba(0,0,0,.60);
-    padding: 50px 60px;
-    margin-top:200px;
-    margin-left: 5%; /*115px;*/
-    border-radius:2px;
-    text-align:center;
-    z-index:1;
-    
-}
-.input-group {
-right:5%;
-width:110%;
-
-}
-@media screen and (min-width:1200px) {
-    .input-group {
-    
-    width:110%;
-    right:0px;
+@media screen and (max-height:768px) {
+    #search {
+        margin-top: 25%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 60px;
     }
 }
 
+@media screen and (min-height:768px) {
+    #search {
+        margin-top: 40%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 60px;
+    }
+}
+
+@media screen and (max-width:768px) /*EXTRA SMALL SCREENS_______________________*/
+{
+    #search {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .inner {
+        padding: 10px;
+        border: 3px solid antiquewhite;
+        background: rgba(0,0,0,.20);
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .bottom-buttons {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width:970px) and (min-width:769px) /*SMALL SCREENS_______________________*/
+{
+    #search {
+        width: 80%;
+        padding: 40px 20px;
+    }
+
+    .inner {
+        padding: 30px;
+        border: 4px solid antiquewhite;
+        background: rgba(0,0,0,.10);
+        text-align: center;
+    }
+
+    .bottom-buttons {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:970px) /*MEDIUM SCREENS_______________________*/
+{
+    .input-group {
+        width: 110%;
+        right: 0px;
+    }
+
+    .inner {
+        padding: 30px;
+        border: 4px solid antiquewhite;
+        background: rgba(0,0,0,.10);
+        text-align: center;
+        font-size: 30px;
+        border-radius: 2px;
+    }
+
+    .bottom-buttons {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width:1200px) /*LARGE SCREENS_______________________*/
+{
+    #search {
+        width: 70%;
+        margin-top: 30%;
+    }
+
+    .input-group {
+        width: 110%;
+        right: 0px;
+    }
+
+    .inner {
+        padding: 30px;
+        border: 4px solid antiquewhite;
+        background: rgba(0,0,0,.10);
+        text-align: center;
+        font-size: 30px;
+        border-radius: 2px;
+    }
+
+    .bottom-buttons {
+        margin-top: 80px;
+    }
+}
+/*NAVBAR-------------------*/
+.navbar {
+    background: transparent;
+    border: none;
+    color: antiquewhite;
+    font-family: serif;
+    text-shadow: 2px 2px #404040;
+    margin-left: 8%;
+}
+
+.nav > li {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin: 7.5px;
+}
+
+
+.navbar-brand {
+    position: absolute;
+    color: aliceblue;
+    z-index: 1;
+}
+/*SEARCH------------------------------*/
+#search {
+    height: 10%;
+    background: rgba(0,0,0,.60);
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+}
 
 input {
-       max-width: 100%; 
+    max-width: 100%;
+    background: antiquewhite !important;
+}
+
+.btn {
+    background: antiquewhite;
+}
+
+/*BOTTOM BUTTONS-------------------*/
+.bottom-buttons {
+    display: inline;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.inner:hover {
+    background: rgba(0,0,0,.30);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: antiquewhite;
 }
