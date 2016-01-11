@@ -63,7 +63,10 @@ namespace PronadjiUBanovcima.Controllers
             else
                 podaci = db.Podaci.ToList();
 
-                     return View(podaci);
+            if (podaci.Count > 0)
+                return View(podaci);
+            else
+                return RedirectToAction("Index", "Home", new { message = "Nema rezultata."});
         }
         [HttpPost]
         [AllowAnonymous]

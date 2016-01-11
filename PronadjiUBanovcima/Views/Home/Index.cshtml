@@ -4,9 +4,12 @@
 @model IEnumerable<PronadjiUBanovcima.Models.Info>
 
  <div class="container">
+     <span>@ViewBag.Message</span>
     <div class="row" id="search">
+        
         @using (Html.BeginForm("Index", "Info", FormMethod.Post))
     {
+            
             <div class="col-lg-11 col-xs-12">
                 <div class="input-group input-group-lg">
                     <input name="SearchString" type="text" class="form-control" placeholder="Pretraga..." />
