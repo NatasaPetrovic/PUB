@@ -1,0 +1,75 @@
+﻿@model PronadjiUBanovcima.Models.Info
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Info</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Id)
+        @Html.EditorFor(model => model.Klijent.Id, "klijentId")
+        @Html.EditorFor(model => model.Klijent.Roles.ToList<Microsoft.AspNet.Identity.EntityFramework.IdentityUserRole>()[0].Role, "rola")
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Firma, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Firma)
+                @Html.ValidationMessageFor(model => model.Firma)
+            </div>
+        </div>
+
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Telefon, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Telefon)
+                @Html.ValidationMessageFor(model => model.Telefon)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Adresa, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Adresa)
+                @Html.ValidationMessageFor(model => model.Adresa)
+            </div>
+        </div>
+
+        
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Vrsta korisnika", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+         <label> @Html.RadioButton("rbtn", "Osnovni", (bool)ViewBag.Korisnik)Osnovni</label>
+         <label>   @Html.RadioButton("rbtn", "Premium", (bool)!ViewBag.Korisnik)Premium</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

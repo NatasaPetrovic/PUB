@@ -183,6 +183,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DelatnostController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InfoController.cs" />
     <Compile Include="Controllers\MailController.cs" />
@@ -294,6 +295,11 @@
     <Content Include="Views\Account\ConfirmationFailure.cshtml" />
     <Content Include="Views\Account\_ChangeData.cshtml" />
     <Content Include="Views\Info\NoResults.cshtml" />
+    <Content Include="Views\Delatnost\Create.cshtml" />
+    <Content Include="Views\Delatnost\Delete.cshtml" />
+    <Content Include="Views\Delatnost\Details.cshtml" />
+    <Content Include="Views\Delatnost\Edit.cshtml" />
+    <Content Include="Views\Delatnost\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

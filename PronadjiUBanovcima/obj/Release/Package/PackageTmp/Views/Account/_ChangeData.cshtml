@@ -1,0 +1,62 @@
+﻿@using Microsoft.AspNet.Identity
+@model PronadjiUBanovcima.Models.ManageUserViewModel
+
+<p>You're logged in as <strong>@User.Identity.GetUserName()</strong>.</p>
+<div class="col-lg-6">
+    @using (Html.BeginForm("Manage", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Change Data</h4>
+        <hr />
+        @Html.ValidationSummary()
+         <div class="form-group">
+               
+                @Html.Label("Ulica i broj", new { @class = "labela control-label col-xs-10 col-md-2 col-lg-2" })
+                
+                <div class="col-md-3 col-xs-4 col-sm-4 col-lg-3 smaller" >
+                    @Html.TextBoxFor(model => model.Adresa, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Adresa)
+                </div>
+
+                <div class="col-xs-1 col-md-1 col-sm-1 noGutter col-lg-1">
+                    @Html.TextBoxFor(model => model.Broj, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Broj)
+                </div>
+            </div>
+        <div class="form-group">
+                @Html.Label("Mesto", new { @class = "control-label col-md-2 col-lg-2" })
+                <div class="col-md-10">
+                    @{
+                    List<SelectListItem> listItems = new List<SelectListItem>();
+                    listItems.Add(new SelectListItem
+                         {
+                             Text = "Novi Banovci",
+                             Value = "Novi Banovci"
+                         });
+                    listItems.Add(new SelectListItem
+                         {
+                             Text = "Banovci Dunav",
+                             Value = "Banovci Dunav"
+                         });
+                    listItems.Add(new SelectListItem
+                         {
+                             Text = "Stari Banovci",
+                             Value = "Stari Banovci"
+                         });
+                    }
+                    @Html.DropDownListFor(model => model.Mesto, listItems, "-- Izaberite mesto --", new { @class = "form-control" })
+
+                    @Html.Label("Upload", new { @class = "control-label col-md-2" })
+                    <br />
+                    @Html.TextBoxFor(m => m.ImageUpload, new { type = "file", name = "imageUpload" })
+                </div>
+            </div>
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-6">
+                <input type="submit" value="Change data" class="btn btn-default" />
+            </div>
+        </div>
+
+    }
+</div>

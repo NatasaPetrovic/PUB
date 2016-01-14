@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Najnoviji oglasi";
+}
+@model IEnumerable<PronadjiUBanovcima.Models.Info>
+
+ <div class="container">
+     <span>@ViewBag.Message</span>
+    <div class="row" id="search">
+        
+        @using (Html.BeginForm("Index", "Info", FormMethod.Post))
+    {
+            
+            <div class="col-lg-11 col-xs-12">
+                <div class="input-group input-group-lg">
+                    <input name="SearchString" type="text" class="form-control" placeholder="Pretraga..." />
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit"> <span class="glyphicon glyphicon-search"></span> </button>
+                    </span>
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+        }
+    </div>
+</div>
+
+<div class="bottom container">
+    <div class="row">
+        <a href="#">
+            <div class="bottom-buttons col-md-6 col-sm-6 col-xs-12">
+                <div class="inner">
+                    napravi besplatni portal
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="bottom-buttons col-md-6 col-sm-6 col-xs-12">
+                <div class="inner">
+                    izaberi po kategorijama
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
