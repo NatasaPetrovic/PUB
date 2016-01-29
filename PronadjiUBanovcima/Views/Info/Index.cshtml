@@ -57,7 +57,9 @@
             <img src="@item.ListaSlika[0].Putanja" width="50" height="50" />
         </td>
         <td>
-            @if(Roles.IsUserInRole("Admin"))
+            @*@if(Roles.IsUserInRole("Admin"))*@
+
+            @if(ViewBag.User == "Admin")
             { 
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) 
                 @Html.ActionLink("Delete", "Delete", new { id=item.Id })

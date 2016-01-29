@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using PronadjiUBanovcima.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Security.Claims;
 
 
 namespace PronadjiUBanovcima.Controllers
@@ -35,6 +36,12 @@ namespace PronadjiUBanovcima.Controllers
         [AllowAnonymous]
         public ActionResult Index(string SearchString)
         {
+            var userIdentity = (ClaimsIdentity)User.Identity;
+            var claims = userIdentity.Claims;
+            var roleClaimType = userIdentity.RoleClaimType;
+            var roles = claims.Where(c => c.Type == ClaimTypes.Role).ToList();
+            ViewBag.User = roles[0].Value;
+
             List<Info> podaci = new List<Info>();
 
             if (SearchString != "")
