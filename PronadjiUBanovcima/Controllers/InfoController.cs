@@ -14,7 +14,7 @@ using System.Security.Claims;
 
 namespace PronadjiUBanovcima.Controllers
 {
-    [Authorize(Roles="Admin")]
+    //[Authorize(Roles="Admin")]
     public class InfoController : Controller
     {
 
@@ -33,15 +33,20 @@ namespace PronadjiUBanovcima.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
         public UserManager<ApplicationUser> UserManager { get; private set; }
         // GET: /Info/
-        [AllowAnonymous]
+       
         public ActionResult Index(string SearchString)
         {
-            var userIdentity = (ClaimsIdentity)User.Identity;
-            var claims = userIdentity.Claims;
-            var roleClaimType = userIdentity.RoleClaimType;
-            var roles = claims.Where(c => c.Type == ClaimTypes.Role).ToList();
-            ViewBag.User = roles[0].Value;
+            if (User.Identity.IsAuthenticated)
+            {
+                var userIdentity = (ClaimsIdentity)User.Identity;
+                var claims = userIdentity.Claims;
+                var roleClaimType = userIdentity.RoleClaimType;
+                var roles = claims.Where(c => c.Type == ClaimTypes.Role).ToList();
 
+                ViewBag.User = roles[0].Value;
+            }
+            else
+                ViewBag.User = "Anoniman";
             List<Info> podaci = new List<Info>();
 
             if (SearchString != "")

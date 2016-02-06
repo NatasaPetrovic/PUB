@@ -4,7 +4,7 @@
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\PUB\\PronadjiUBanovcima\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\PUB\\PronadjiUBanovcima\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-PronadjiUBanovcima-20151015114312.mdf;Initial Catalog=aspnet-PronadjiUBanovcima-20151015114312;Integrated Security=True" tags="SqlConnectionString">
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:pub.database.windows.net,1433;Initial Catalog=pub;User ID=Nata@pub;Password=MichoNatta789" tags="">
     <parameterEntry kind="XmlFile" scope="D:\\PUB\\PronadjiUBanovcima\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
 </parameters>

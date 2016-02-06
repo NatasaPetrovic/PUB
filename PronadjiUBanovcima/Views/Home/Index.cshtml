@@ -3,8 +3,8 @@
 }
 @model IEnumerable<PronadjiUBanovcima.Models.Info>
 
- <div class="container">
-     <span>@ViewBag.Message</span>
+
+     @*<span>@ViewBag.Message</span>*@
     <div class="row" id="search">
         
         @using (Html.BeginForm("Index", "Info", FormMethod.Post))
@@ -20,9 +20,9 @@
             </div><!-- /.col-lg-6 -->
         }
     </div>
-</div>
 
-<div class="bottom container">
+
+<div class="bottom">
     <div class="row">
         <a href="#">
             <div class="bottom-buttons col-md-6 col-sm-6 col-xs-12">
@@ -40,4 +40,5 @@
         </a>
     </div>
 </div>
+
 
